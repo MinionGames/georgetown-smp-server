@@ -1,75 +1,185 @@
-[15:40:34] [main/INFO]: Using mbed TLS based native cipher.
-[15:40:34] [main/INFO]: Using zlib based native compressor.
-[15:40:34] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
-[15:40:34] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
-[15:40:34] [main/INFO]: Epoll is working, utilising it!
-[15:40:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
-[15:40:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
-[15:40:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
-[15:40:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
-[15:40:35] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
-[15:40:35] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
-[15:40:35] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[15:40:35] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[15:40:35] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[15:40:35] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[15:40:35] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[15:40:35] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[15:40:35] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[15:40:35] [main/WARN]: :>  
-[15:40:35] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
-[15:40:35] [main/WARN]: :>  
-[15:40:35] [main/WARN]: :>  This plugin wasn't tested to be 'working'
-[15:40:35] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
-[15:40:35] [main/WARN]: :>  apart from the versions listed below:
-[15:40:35] [main/WARN]: :>  
-[15:40:35] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
-[15:40:35] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
-[15:40:35] [main/WARN]: :>  - FlameCord: 1.1.1
-[15:40:35] [main/WARN]: :>  
-[15:40:35] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
-[15:40:35] [main/WARN]: :>  
-[15:40:35] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
-[15:40:35] [main/WARN]: :>  
-[15:40:35] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
-[15:40:35] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
-[15:40:38] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
-[15:40:38] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
-[15:40:38] [main/WARN]: Forced host server pvp is not defined
-[15:40:39] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[15:40:39] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[15:40:39] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[15:40:39] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[15:40:39] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[15:40:39] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
-[15:40:39] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
-[15:40:39] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
-[15:40:39] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/georgetown-smp-server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.2c63d6a9be9d273db57d50cb026093cb97ea6e54.cert
-[15:40:40] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
-[15:40:40] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
-[15:40:40] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
-[15:41:36] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/georgetown-smp-server/bungee/server-icon.png
-[15:41:37] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45158]: Connected via websocket
-[15:41:37] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45158]: Origin header is https://eaglercraft.q13x.com
-[15:41:38] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:45158]: Logged in as '_bubthethird_'
-[15:41:38] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:45158|_bubthethird_] -> UpstreamBridge has connected
-[15:41:38] [Netty Worker IO Thread #2/INFO]: [_bubthethird_|/[0:0:0:0:0:0:0:1%0]:45158] <-> ServerConnector [lobby] has connected
-[15:50:06] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:45158|_bubthethird_] -> UpstreamBridge has disconnected
-[15:50:06] [Netty Worker IO Thread #2/INFO]: [_bubthethird_] disconnected with: Proxy lost connection to server.
-[15:50:06] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:45158|_bubthethird_] <-> DownstreamBridge <-> [lobby] has disconnected
-[15:50:19] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51412]: Connected via websocket
-[15:50:19] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51412]: Origin header is https://eaglercraft.q13x.com
-[15:50:19] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51412]: Logged in as '_bubthethird_afk'
-[15:50:19] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:51412|_bubthethird_afk] -> UpstreamBridge has connected
-[15:50:19] [Netty Worker IO Thread #1/INFO]: [_bubthethird_afk|/[0:0:0:0:0:0:0:1%0]:51412] <-> ServerConnector [lobby] has connected
-[15:59:37] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46992]: Connected via websocket
-[15:59:37] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46992]: Origin header is https://eaglercraft.com
-[15:59:37] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:46992]: Logged in as '_bubthethird_'
-[15:59:37] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:46992|_bubthethird_] -> UpstreamBridge has connected
-[15:59:37] [Netty Worker IO Thread #3/INFO]: [_bubthethird_|/[0:0:0:0:0:0:0:1%0]:46992] <-> ServerConnector [lobby] has connected
-[16:06:05] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:51412|_bubthethird_afk] -> UpstreamBridge has disconnected
-[16:06:05] [Netty Worker IO Thread #1/INFO]: [_bubthethird_afk] disconnected with: Proxy lost connection to server.
-[16:06:05] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:51412|_bubthethird_afk] <-> DownstreamBridge <-> [lobby] has disconnected
-[16:06:24] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:46992|_bubthethird_] -> UpstreamBridge has disconnected
-[16:06:24] [Netty Worker IO Thread #3/INFO]: [_bubthethird_] disconnected with: Proxy lost connection to server.
-[16:06:24] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:46992|_bubthethird_] <-> DownstreamBridge <-> [lobby] has disconnected
+[10:40:36] [main/INFO]: Using mbed TLS based native cipher.
+[10:40:36] [main/INFO]: Using zlib based native compressor.
+[10:40:36] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[10:40:36] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[10:40:36] [main/INFO]: Epoll is working, utilising it!
+[10:40:37] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[10:40:37] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[10:40:37] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[10:40:37] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[10:40:37] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[10:40:37] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[10:40:37] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[10:40:37] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[10:40:37] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[10:40:37] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[10:40:37] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[10:40:37] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[10:40:37] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[10:40:37] [main/WARN]: :>  
+[10:40:37] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[10:40:37] [main/WARN]: :>  
+[10:40:37] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[10:40:37] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[10:40:37] [main/WARN]: :>  apart from the versions listed below:
+[10:40:37] [main/WARN]: :>  
+[10:40:37] [main/WARN]: :>  - BungeeCord: 1.20-R0.3-SNAPSHOT:eda268b:1797
+[10:40:37] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:92b5149:562
+[10:40:37] [main/WARN]: :>  - FlameCord: 1.1.1
+[10:40:37] [main/WARN]: :>  
+[10:40:37] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[10:40:37] [main/WARN]: :>  
+[10:40:37] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[10:40:37] [main/WARN]: :>  
+[10:40:37] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[10:40:37] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[10:40:40] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[10:40:40] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[10:40:40] [main/WARN]: Forced host server pvp is not defined
+[10:40:40] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[10:40:40] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[10:40:40] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[10:40:40] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[10:40:40] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[10:40:40] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[10:40:40] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[10:40:40] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[10:40:41] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/georgetown-smp-server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.2c63d6a9be9d273db57d50cb026093cb97ea6e54.cert
+[10:40:41] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[10:40:41] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.10 by lax1dude
+[10:40:41] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[10:41:11] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38708]: Connected via websocket
+[10:41:11] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38708]: Origin header is https://eaglercraft.q13x.com
+[10:41:11] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38708]: Logged in as '_bubthethird_afk'
+[10:41:11] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:38708|_bubthethird_afk] -> UpstreamBridge has connected
+[10:41:11] [Netty Worker IO Thread #2/WARN] [io.netty.bootstrap.Bootstrap]: Failed to set channel option 'CONNECT_TIMEOUT_MILLIS' with value '-1' for channel '[id: 0x9663546d]'
+java.lang.IllegalArgumentException: connectTimeoutMillis : -1 (expected: >= 0)
+	at io.netty.util.internal.ObjectUtil.checkPositiveOrZero(ObjectUtil.java:144) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.DefaultChannelConfig.setConnectTimeoutMillis(DefaultChannelConfig.java:216) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.EpollChannelConfig.setConnectTimeoutMillis(EpollChannelConfig.java:101) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.EpollSocketChannelConfig.setConnectTimeoutMillis(EpollSocketChannelConfig.java:585) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.EpollSocketChannelConfig.setConnectTimeoutMillis(EpollSocketChannelConfig.java:40) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.DefaultChannelConfig.setOption(DefaultChannelConfig.java:173) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.EpollChannelConfig.setOption(EpollChannelConfig.java:94) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.EpollSocketChannelConfig.setOption(EpollSocketChannelConfig.java:172) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.bootstrap.AbstractBootstrap.setChannelOption(AbstractBootstrap.java:463) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.bootstrap.AbstractBootstrap.setChannelOptions(AbstractBootstrap.java:455) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.bootstrap.Bootstrap.init(Bootstrap.java:264) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.bootstrap.AbstractBootstrap.initAndRegister(AbstractBootstrap.java:311) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:155) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:116) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:397) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:295) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:272) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:265) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1$1.operationComplete(HttpWebSocketHandler.java:967) ~[?:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:184) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:809) ~[?:?]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:1) ~[?:?]
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:467) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:982) ~[?:?]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:1) ~[?:?]
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:467) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.finish(HttpWebSocketHandler.java:986) ~[?:?]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.handleBinary(HttpWebSocketHandler.java:699) ~[?:?]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.channelRead(HttpWebSocketHandler.java:129) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:41:11] [Netty Worker IO Thread #2/WARN]: Event LoginEvent(cancelled=false, cancelReasonComponents=null, loginResult=null, connection=[/[0:0:0:0:0:0:0:1%0]:38708|_bubthethird_afk] <-> InitialHandler) took 277ms to process!
+[10:41:11] [Netty Worker IO Thread #2/WARN]: Event PreLoginEvent(cancelled=false, cancelReasonComponents=null, connection=[/[0:0:0:0:0:0:0:1%0]:38708|_bubthethird_afk] <-> InitialHandler) took 283ms to process!
+[10:41:11] [Netty Worker IO Thread #2/INFO]: [_bubthethird_afk|/[0:0:0:0:0:0:0:1%0]:38708] <-> ServerConnector [lobby] has connected
+[11:10:18] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48976]: Connected via websocket
+[11:10:18] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48976]: Origin header is https://eaglercraft.com
+[11:10:18] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48976]: Logged in as '_bubthethird_'
+[11:10:18] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:48976|_bubthethird_] -> UpstreamBridge has connected
+[11:10:18] [Netty Worker IO Thread #3/WARN] [io.netty.bootstrap.Bootstrap]: Failed to set channel option 'CONNECT_TIMEOUT_MILLIS' with value '-1' for channel '[id: 0x22619f12]'
+java.lang.IllegalArgumentException: connectTimeoutMillis : -1 (expected: >= 0)
+	at io.netty.util.internal.ObjectUtil.checkPositiveOrZero(ObjectUtil.java:144) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.DefaultChannelConfig.setConnectTimeoutMillis(DefaultChannelConfig.java:216) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.EpollChannelConfig.setConnectTimeoutMillis(EpollChannelConfig.java:101) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.EpollSocketChannelConfig.setConnectTimeoutMillis(EpollSocketChannelConfig.java:585) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.EpollSocketChannelConfig.setConnectTimeoutMillis(EpollSocketChannelConfig.java:40) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.DefaultChannelConfig.setOption(DefaultChannelConfig.java:173) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.EpollChannelConfig.setOption(EpollChannelConfig.java:94) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.EpollSocketChannelConfig.setOption(EpollSocketChannelConfig.java:172) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.bootstrap.AbstractBootstrap.setChannelOption(AbstractBootstrap.java:463) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.bootstrap.AbstractBootstrap.setChannelOptions(AbstractBootstrap.java:455) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.bootstrap.Bootstrap.init(Bootstrap.java:264) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.bootstrap.AbstractBootstrap.initAndRegister(AbstractBootstrap.java:311) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:155) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:116) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:397) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:295) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:272) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.UserConnection.connect(UserConnection.java:265) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1$1.operationComplete(HttpWebSocketHandler.java:967) ~[?:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:184) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:809) ~[?:?]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$1.done(HttpWebSocketHandler.java:1) ~[?:?]
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:467) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:982) ~[?:?]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler$2.done(HttpWebSocketHandler.java:1) ~[?:?]
+	at net.md_5.bungee.api.event.AsyncEvent.postCall(AsyncEvent.java:40) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:467) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.finish(HttpWebSocketHandler.java:986) ~[?:?]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.handleBinary(HttpWebSocketHandler.java:699) ~[?:?]
+	at net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.server.HttpWebSocketHandler.channelRead(HttpWebSocketHandler.java:129) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[11:10:18] [Netty Worker IO Thread #3/INFO]: [_bubthethird_|/[0:0:0:0:0:0:0:1%0]:48976] <-> ServerConnector [lobby] has connected
+[11:25:49] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:48976|_bubthethird_] -> UpstreamBridge has disconnected
+[11:25:49] [Netty Worker IO Thread #3/INFO]: [_bubthethird_] disconnected with: Proxy lost connection to server.
+[11:25:49] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:48976|_bubthethird_] <-> DownstreamBridge <-> [lobby] has disconnected
