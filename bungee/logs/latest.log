@@ -184,3 +184,12 @@ java.lang.IllegalArgumentException: connectTimeoutMillis : -1 (expected: >= 0)
 [12:24:00] [Netty Worker IO Thread #1/INFO]: [/192.168.194.137:44026|Studioblop_] -> UpstreamBridge has disconnected
 [12:24:00] [Netty Worker IO Thread #1/INFO]: [Studioblop_] disconnected with: Proxy lost connection to server.
 [12:24:00] [Netty Worker IO Thread #1/INFO]: [/192.168.194.137:44026|Studioblop_] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:49:03] [Shutdown Thread/INFO]: Closing listener [id: 0x8d7c9ad0, L:/127.0.0.1:25577]
+[12:49:03] [Shutdown Thread/INFO]: Closing pending connections
+[12:49:03] [Shutdown Thread/INFO]: Disconnecting 0 connections
+[12:49:03] [Shutdown Thread/INFO]: Disabling plugins
+[12:49:03] [Shutdown Thread/INFO] [EaglercraftXBungee]: Eaglercraft listener closed: /0.0.0.0:8081
+[12:49:03] [Shutdown Thread/INFO] [EaglercraftXBungee]: Successfully disconnected from database 'jdbc:sqlite:eaglercraft_skins_cache.db'
+[12:49:03] [Shutdown Thread/INFO] [EaglercraftXBungee]: Stopping skin cache HTTP client...
+[12:49:03] [Shutdown Thread/INFO]: Closing IO threads
+[12:49:05] [Shutdown Thread/INFO]: Thank you and goodbye
