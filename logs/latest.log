@@ -1,0 +1,18 @@
+[14:03:06] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[14:03:06] [Server thread/INFO]: Loading properties
+[14:03:06] [Server thread/INFO]: Default game type: SURVIVAL
+[14:03:06] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[14:03:06] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[14:03:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:03:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:03:06] [Server thread/INFO]: Debug logging is disabled
+[14:03:06] [Server thread/INFO]: Data value allowed items: 
+[14:03:06] [Server thread/INFO]: Generating keypair
+[14:03:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:03:06] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[14:03:06] [Server thread/INFO]: Using epoll channel type
+[14:03:06] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[14:03:06] [Server thread/WARN]: The exception was: java.io.IOException: Error during bind(...): Address already in use
+[14:03:06] [Server thread/WARN]: Perhaps a server is already running on that port?
+[14:03:06] [Server thread/INFO]: Stopping server
+[14:03:06] [Server thread/INFO]: Saving players
