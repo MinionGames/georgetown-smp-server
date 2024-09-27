@@ -1,224 +1,1043 @@
-[22:28:23] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[22:28:23] [Server thread/INFO]: Loading properties
-[22:28:23] [Server thread/INFO]: Default game type: SURVIVAL
-[22:28:23] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[22:28:23] [Server thread/WARN]: Failed to load white-list: 
-java.lang.NullPointerException: Cannot invoke "net.minecraft.server.v1_8_R3.JsonListEntry.getKey()" because "jsonlistentry" is null
-	at net.minecraft.server.v1_8_R3.JsonList.load(JsonList.java:195) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.DedicatedPlayerList.C(SourceFile:123) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.DedicatedPlayerList.<init>(SourceFile:30) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:176) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
-	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[22:28:23] [Server thread/INFO]: Debug logging is disabled
-[22:28:23] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[22:28:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:35:00] [Thread-106/INFO]: UUID of player _bubthethird_ is af3a03f2-8d5e-31c2-b8e7-279e15033b60
+[09:35:00] [Server thread/INFO]: _bubthethird_[/127.0.0.1:64174] logged in with entity id 87554 at ([world]1123.7840370216763, 83.0, -1250.222443286603)
+[09:50:46] [Server thread/INFO]: _bubthethird_ lost connection: Disconnected
+[09:50:46] [Server thread/INFO]: _bubthethird_ left the game.
+[10:13:26] [Thread-108/INFO]: UUID of player Studioblop_ is 5fffbb64-d79f-3776-a0a1-e793891e48bf
+[10:13:26] [Server thread/INFO]: Studioblop_[/127.0.0.1:64265] logged in with entity id 90267 at ([world]503.25840295975934, 64.0, -387.94194147826545)
+[10:17:24] [Server thread/INFO]: Studioblop_ lost connection: Disconnected
+[10:17:24] [Server thread/INFO]: Studioblop_ left the game.
+[10:24:28] [Thread-109/INFO]: UUID of player Studioblop_ is 5fffbb64-d79f-3776-a0a1-e793891e48bf
+[10:24:28] [Server thread/INFO]: Studioblop_[/127.0.0.1:64289] logged in with entity id 90830 at ([world]536.4310987869917, 11.0, -398.7266251809923)
+[10:25:28] [Server thread/INFO]: Studioblop_ lost connection: Disconnected
+[10:25:28] [Server thread/INFO]: Studioblop_ left the game.
+[10:54:35] [Thread-111/INFO]: UUID of player _bubthethird_ is af3a03f2-8d5e-31c2-b8e7-279e15033b60
+[10:54:35] [Server thread/INFO]: _bubthethird_[/127.0.0.1:64370] logged in with entity id 91027 at ([world]1126.3408662608954, 83.0, -1242.1505575191998)
+[11:15:29] [Server thread/INFO]: _bubthethird_ lost connection: Disconnected
+[11:15:29] [Server thread/INFO]: _bubthethird_ left the game.
+[11:24:16] [Thread-113/INFO]: UUID of player idk_what_to_put_ is 9806e5ec-15ef-3095-b1d3-fdeaf0cdc2aa
+[11:24:16] [Server thread/INFO]: idk_what_to_put_[/127.0.0.1:64450] logged in with entity id 94457 at ([world]550.9846471849168, 14.0, -365.0153762968827)
+[11:33:05] [Thread-115/INFO]: UUID of player Huntingoliver_ is 7294e77a-e9b9-3304-bb8f-cf69353505bd
+[11:33:05] [Server thread/INFO]: Huntingoliver_[/127.0.0.1:64466] logged in with entity id 95134 at ([world]528.5062887544218, 64.0, -268.07331858643823)
+[11:33:19] [Async Chat Thread - #46/INFO]: <idk_what_to_put_> yoooooo[m
 
-[22:28:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:28:23] [Server thread/INFO]: Data value allowed items: 
-[22:28:23] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[11:33:22] [Async Chat Thread - #46/INFO]: <Huntingoliver_> yooooooo[m
 
-[22:28:23] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[11:33:34] [Async Chat Thread - #46/INFO]: <Huntingoliver_> what class do you have[m
 
-[22:28:23] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[11:33:40] [Async Chat Thread - #46/INFO]: <idk_what_to_put_> secret[m
 
-[22:28:23] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[11:33:59] [Async Chat Thread - #46/INFO]: <Huntingoliver_> oh the misery[m
 
-[22:28:23] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[11:34:16] [Async Chat Thread - #46/INFO]: <idk_what_to_put_> everybody wants to be my enemy[m
 
-[22:28:23] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[11:34:32] [Async Chat Thread - #46/INFO]: <Huntingoliver_> spare the sympathy[m
 
-[22:28:23] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[11:35:01] [Async Chat Thread - #46/INFO]: <idk_what_to_put_> everybody wants to be my enemy[m
 
-[22:28:23] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[11:35:26] [Thread-116/INFO]: UUID of player _bubthethird_ is af3a03f2-8d5e-31c2-b8e7-279e15033b60
+[11:35:26] [Server thread/INFO]: _bubthethird_[/127.0.0.1:64472] logged in with entity id 95479 at ([world]1104.707398763456, 89.0, -1241.1137579014978)
+[11:35:31] [Async Chat Thread - #46/INFO]: <idk_what_to_put_> yooooooo[m
 
-[22:28:23] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[11:35:34] [Async Chat Thread - #46/INFO]: <_bubthethird_> yoooooooooooooooooooooooooo[m
 
-[22:28:23] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[11:35:39] [Async Chat Thread - #46/INFO]: <Huntingoliver_> yooooooooooooooooooooooooooooooooooooooo[m
 
-[22:28:23] [Server thread/INFO]: Generating keypair
-[22:28:23] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[22:28:23] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[22:28:23] [Server thread/INFO]: Using default channel type
-[22:28:23] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[22:28:23] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[22:28:23] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[22:28:23] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[22:28:23] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[22:28:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:28:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:28:23] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[22:28:23] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[22:28:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:28:23] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[22:28:23] [Server thread/INFO]: Preparing level "world"
-[22:28:23] [Server thread/INFO]: -------- World Settings For [world] --------
-[22:28:23] [Server thread/INFO]: Mob Spawn Range: 4
-[22:28:23] [Server thread/INFO]: Anti X-Ray: true
-[22:28:23] [Server thread/INFO]: 	Engine Mode: 1
-[22:28:23] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[22:28:23] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[22:28:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:28:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[22:28:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:28:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[22:28:23] [Server thread/INFO]: Random Lighting Updates: false
-[22:28:23] [Server thread/INFO]: Structure Info Saving: true
-[22:28:23] [Server thread/INFO]: Sending up to 10 chunks per packet
-[22:28:23] [Server thread/INFO]: Max Entity Collisions: 8
-[22:28:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[22:28:23] [Server thread/INFO]: Max TNT Explosions: 100
-[22:28:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:28:23] [Server thread/INFO]: View Distance: 4
-[22:28:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:28:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:28:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[22:28:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:28:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:28:23] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[22:28:23] [Server thread/INFO]: Clear tick list: false
-[22:28:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:28:23] [Server thread/INFO]: -------- World Settings For [world] --------
-[22:28:23] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[22:28:23] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[22:28:23] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[22:28:23] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[22:28:23] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[22:28:23] [Server thread/INFO]: Water over lava flow speed: 5
-[22:28:23] [Server thread/INFO]: Fix TNT cannons: false
-[22:28:23] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[22:28:23] [Server thread/INFO]: Keep spawn chunk loaded: true
-[22:28:23] [Server thread/INFO]: World async lighting: false
-[22:28:23] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[22:28:23] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[22:28:23] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[22:28:23] [Server thread/INFO]: Mob Spawn Range: 4
-[22:28:23] [Server thread/INFO]: Anti X-Ray: true
-[22:28:23] [Server thread/INFO]: 	Engine Mode: 1
-[22:28:23] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[22:28:23] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[22:28:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:28:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:28:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[22:28:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:28:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[22:28:23] [Server thread/INFO]: Random Lighting Updates: false
-[22:28:23] [Server thread/INFO]: Structure Info Saving: true
-[22:28:23] [Server thread/INFO]: Sending up to 10 chunks per packet
-[22:28:23] [Server thread/INFO]: Max Entity Collisions: 8
-[22:28:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[22:28:23] [Server thread/INFO]: Max TNT Explosions: 100
-[22:28:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:28:23] [Server thread/INFO]: View Distance: 4
-[22:28:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:28:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:28:23] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[22:28:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:28:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:28:23] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[22:28:23] [Server thread/INFO]: Clear tick list: false
-[22:28:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:28:23] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[22:28:23] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[22:28:23] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[22:28:23] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[22:28:23] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[22:28:23] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[22:28:23] [Server thread/INFO]: Water over lava flow speed: 5
-[22:28:23] [Server thread/INFO]: Fix TNT cannons: false
-[22:28:23] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[22:28:23] [Server thread/INFO]: Keep spawn chunk loaded: true
-[22:28:23] [Server thread/INFO]: World async lighting: false
-[22:28:23] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[22:28:23] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[22:28:23] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[22:28:23] [Server thread/INFO]: Mob Spawn Range: 4
-[22:28:23] [Server thread/INFO]: Anti X-Ray: true
-[22:28:24] [Server thread/INFO]: 	Engine Mode: 1
-[22:28:24] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[22:28:24] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[22:28:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:28:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:28:24] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:28:24] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:28:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:28:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:28:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:28:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:28:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:28:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[22:28:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:28:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[22:28:24] [Server thread/INFO]: Random Lighting Updates: false
-[22:28:24] [Server thread/INFO]: Structure Info Saving: true
-[22:28:24] [Server thread/INFO]: Sending up to 10 chunks per packet
-[22:28:24] [Server thread/INFO]: Max Entity Collisions: 8
-[22:28:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[22:28:24] [Server thread/INFO]: Max TNT Explosions: 100
-[22:28:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:28:24] [Server thread/INFO]: View Distance: 4
-[22:28:24] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:28:24] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:28:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[22:28:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:28:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:28:24] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[22:28:24] [Server thread/INFO]: Clear tick list: false
-[22:28:24] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:28:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[22:28:24] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[22:28:24] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[22:28:24] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[22:28:24] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[22:28:24] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[22:28:24] [Server thread/INFO]: Water over lava flow speed: 5
-[22:28:24] [Server thread/INFO]: Fix TNT cannons: false
-[22:28:24] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[22:28:24] [Server thread/INFO]: Keep spawn chunk loaded: true
-[22:28:24] [Server thread/INFO]: World async lighting: false
-[22:28:24] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[22:28:24] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[22:28:24] [Server thread/INFO]: Preparing start region for level 0 (Seed: -6540785876312294281)
-[22:28:25] [Server thread/INFO]: Preparing spawn area: 92%
-[22:28:25] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6540785876312294281)
-[22:28:26] [Server thread/INFO]: Preparing spawn area: 77%
-[22:28:26] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6540785876312294281)
-[22:28:26] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[22:28:26] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[11:36:30] [Server thread/INFO]: Huntingoliver_ lost connection: Disconnected
+[11:36:30] [Server thread/INFO]: Huntingoliver_ left the game.
+[11:38:06] [Thread-117/INFO]: UUID of player yes is ea922ad6-ec0a-3f6a-b7ae-0a1b23a7304a
+[11:38:06] [Server thread/INFO]: yes[/127.0.0.1:64483] logged in with entity id 96128 at ([world]506.1911465178435, 64.0, -340.12732188904135)
+[11:38:12] [Async Chat Thread - #47/INFO]: <idk_what_to_put_> uh oh[m
 
-[22:28:26] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[11:38:13] [Thread-118/INFO]: UUID of player Huntingoliver_ is 7294e77a-e9b9-3304-bb8f-cf69353505bd
+[11:38:13] [Server thread/INFO]: Huntingoliver_[/127.0.0.1:64488] logged in with entity id 96176 at ([world]528.2250174243413, 64.0, -268.0915135950041)
+[11:38:14] [Server thread/INFO]: yes issued server command: /in realPassword
+[11:38:23] [Async Chat Thread - #47/INFO]: <Huntingoliver_> yooooooooooo[m
 
-[22:28:26] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[22:28:26] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[22:28:26] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[22:28:26] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[22:28:26] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[22:28:26] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[22:28:26] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[22:28:26] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[22:28:27] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[22:28:27] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[22:28:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:28:27] [Server thread/INFO]: Done (3.394s)! For help, type "help" or "?"
-[22:28:27] [Server thread/INFO]: Timings Reset
-[22:28:28] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[11:38:27] [Async Chat Thread - #47/INFO]: <idk_what_to_put_> yoooooooooo[m
 
-[22:28:28] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[11:38:52] [Async Chat Thread - #47/INFO]: <yes> you absolute sky full of stars[m
 
-[22:28:28] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[11:39:00] [Async Chat Thread - #47/INFO]: <_bubthethird_> ok[m
 
+[11:39:01] [Async Chat Thread - #47/INFO]: <idk_what_to_put_> noooooooooooo[m
+
+[11:39:06] [Async Chat Thread - #47/INFO]: <yes> dominc[m
+
+[11:39:09] [Async Chat Thread - #47/INFO]: <idk_what_to_put_> i cant escape[m
+
+[11:39:31] [Async Chat Thread - #47/INFO]: <Huntingoliver_> tell me im right, tell me im wrong[m
+
+[11:39:34] [Async Chat Thread - #47/INFO]: <yes> "Jesse's my sky full of stars" -Dominic[m
+
+[11:39:51] [Async Chat Thread - #47/INFO]: <idk_what_to_put_> your wrong[m
+
+[11:39:58] [Async Chat Thread - #47/INFO]: <yes> *you're[m
+
+[11:39:59] [Async Chat Thread - #47/INFO]: <Huntingoliver_> noooooooooooooooo[m
+
+[11:40:12] [Async Chat Thread - #47/INFO]: <idk_what_to_put_> darn you auto correct[m
+
+[11:40:34] [Async Chat Thread - #47/INFO]: <Huntingoliver_> im in your corner[m
+
+[11:40:47] [Async Chat Thread - #47/INFO]: <yes> "you know i've been here all along. in your corner"[m
+
+[11:41:48] [Async Chat Thread - #48/INFO]: <yes> "in a sky full of stars i think i see you" - dom[m
+
+[11:42:12] [Async Chat Thread - #48/INFO]: <idk_what_to_put_> im gonna kill you dominic[m
+
+[11:42:18] [Async Chat Thread - #48/INFO]: <idk_what_to_put_> and its going to be in a fire[m
+
+[11:42:44] [Async Chat Thread - #48/INFO]: <yes> domic tried to s[m
+
+[11:42:58] [Async Chat Thread - #48/INFO]: <yes> do the swaring thing[m
+
+[11:43:06] [Async Chat Thread - #48/INFO]: <yes> with keyboard[m
+
+[11:43:09] [Async Chat Thread - #48/INFO]: <idk_what_to_put_> what swaring thing[m
+
+[11:43:11] [Async Chat Thread - #48/INFO]: <yes> id noicles[m
+
+[11:43:23] [Async Chat Thread - #48/INFO]: <idk_what_to_put_> oh the #####[m
+
+[11:43:35] [Async Chat Thread - #48/INFO]: <yes> ####################################################[m
+
+[11:43:45] [Async Chat Thread - #48/INFO]: <yes> silicosis[m
+
+[11:43:56] [Async Chat Thread - #48/INFO]: <yes> domic ask "in a fire?"[m
+
+[11:45:15] [Async Chat Thread - #49/INFO]: <idk_what_to_put_> where did you go?[m
+
+[11:45:35] [Async Chat Thread - #49/INFO]: <yes> in a sky full of stars[m
+
+[11:45:49] [Async Chat Thread - #49/INFO]: <idk_what_to_put_> factualy wrong[m
+
+[11:45:58] [Async Chat Thread - #49/INFO]: <idk_what_to_put_> ongng[m
+
+[11:46:16] [Async Chat Thread - #49/INFO]: <yes> oopsie poopsicles[m
+
+[11:46:41] [Server thread/INFO]: Huntingoliver_ was slain by idk_what_to_put_
+[11:46:46] [Async Chat Thread - #49/INFO]: <_bubthethird_> yoooooo[m
+
+[11:47:31] [Async Chat Thread - #49/INFO]: <_bubthethird_> wtf just happened[m
+
+[11:47:34] [Async Chat Thread - #49/INFO]: <idk_what_to_put_> for your troubles[m
+
+[11:47:50] [Async Chat Thread - #49/INFO]: <idk_what_to_put_> no need to know[m
+
+[11:48:06] [Async Chat Thread - #49/INFO]: <Huntingoliver_> gotta go[m
+
+[11:48:07] [Async Chat Thread - #49/INFO]: <yes> hoppin on despawning[m
+
+[11:48:08] [Server thread/INFO]: Huntingoliver_ lost connection: Disconnected
+[11:48:08] [Server thread/INFO]: Huntingoliver_ left the game.
+[11:48:10] [Server thread/INFO]: yes lost connection: Disconnected
+[11:48:10] [Server thread/INFO]: yes left the game.
+[11:48:22] [Async Chat Thread - #49/INFO]: <_bubthethird_> nice farm[m
+
+[11:48:33] [Async Chat Thread - #49/INFO]: <idk_what_to_put_> not mine[m
+
+[11:49:03] [Async Chat Thread - #49/INFO]: <idk_what_to_put_> wtf is this water doing tho[m
+
+[11:49:51] [Async Chat Thread - #49/INFO]: <idk_what_to_put_> first or second lunch?[m
+
+[11:49:54] [Async Chat Thread - #49/INFO]: <_bubthethird_> second[m
+
+[11:49:56] [Async Chat Thread - #49/INFO]: <_bubthethird_> you?[m
+
+[11:50:00] [Async Chat Thread - #49/INFO]: <idk_what_to_put_> nice[m
+
+[11:50:06] [Async Chat Thread - #49/INFO]: <idk_what_to_put_> also second[m
+
+[11:50:31] [Server thread/INFO]: idk_what_to_put_ lost connection: Disconnected
+[11:50:31] [Server thread/INFO]: idk_what_to_put_ left the game.
+[11:52:52] [Server thread/INFO]: _bubthethird_ lost connection: Disconnected
+[11:52:52] [Server thread/INFO]: _bubthethird_ left the game.
+[12:06:08] [Thread-120/INFO]: UUID of player _bubthethird_ is af3a03f2-8d5e-31c2-b8e7-279e15033b60
+[12:06:09] [Server thread/INFO]: _bubthethird_[/127.0.0.1:64554] logged in with entity id 100320 at ([world]488.3104552964948, 64.0, -274.5232256888622)
+[12:06:30] [Async Chat Thread - #50/INFO]: <_bubthethird_> 499 -257[m
+
+[12:10:11] [Async Chat Thread - #51/INFO]: <_bubthethird_> 499 -248[m
+
+[12:11:02] [Thread-121/INFO]: UUID of player idk_what_to_put_ is 9806e5ec-15ef-3095-b1d3-fdeaf0cdc2aa
+[12:11:02] [Server thread/INFO]: idk_what_to_put_[/127.0.0.1:64589] logged in with entity id 100840 at ([world]492.74399063073486, 59.0, -243.28464823192942)
+[12:11:16] [Async Chat Thread - #52/INFO]: <idk_what_to_put_> nuh uh[m
+
+[12:18:43] [Server thread/INFO]: idk_what_to_put_ lost connection: Disconnected
+[12:18:43] [Server thread/INFO]: idk_what_to_put_ left the game.
+[12:18:46] [Thread-122/INFO]: UUID of player idk_what_to_put_ is 9806e5ec-15ef-3095-b1d3-fdeaf0cdc2aa
+[12:18:46] [Server thread/INFO]: idk_what_to_put_[/127.0.0.1:64619] logged in with entity id 101746 at ([world]490.49779119866014, 63.0, -271.4805996063351)
+[12:20:26] [Thread-123/INFO]: UUID of player Studioblop_ is 5fffbb64-d79f-3776-a0a1-e793891e48bf
+[12:20:26] [Server thread/INFO]: Studioblop_[/127.0.0.1:64633] logged in with entity id 102055 at ([world]536.6999999880791, 11.0, -481.0153221868537)
+[12:20:30] [Async Chat Thread - #53/INFO]: <idk_what_to_put_> yooooooo[m
+
+[12:20:40] [Async Chat Thread - #53/INFO]: <Studioblop_> nuh uh[m
+
+[12:20:43] [Async Chat Thread - #53/INFO]: <idk_what_to_put_> oh wait your right next to me[m
+
+[12:20:49] [Async Chat Thread - #53/INFO]: <idk_what_to_put_> kill your self[m
+
+[12:20:53] [Async Chat Thread - #53/INFO]: <Studioblop_> mbmbmbmb[m
+
+[12:20:54] [Async Chat Thread - #53/INFO]: <_bubthethird_> yes[m
+
+[12:20:56] [Async Chat Thread - #53/INFO]: <Studioblop_> mfmfmfmf[m
+
+[12:20:58] [Async Chat Thread - #53/INFO]: <idk_what_to_put_> ybybybybybyb[m
+
+[12:24:12] [Server thread/INFO]: idk_what_to_put_ lost connection: Disconnected
+[12:24:12] [Server thread/INFO]: idk_what_to_put_ left the game.
+[12:24:14] [Server thread/INFO]: Studioblop_ lost connection: Disconnected
+[12:24:14] [Server thread/INFO]: Studioblop_ left the game.
+[12:24:15] [Server thread/INFO]: _bubthethird_ lost connection: Disconnected
+[12:24:15] [Server thread/INFO]: _bubthethird_ left the game.
+[12:29:20] [Thread-125/INFO]: UUID of player idk_what_to_put_ is 9806e5ec-15ef-3095-b1d3-fdeaf0cdc2aa
+[12:29:21] [Server thread/INFO]: idk_what_to_put_[/127.0.0.1:64653] logged in with entity id 103264 at ([world]536.6378152128137, 11.0, -651.5477496347626)
+[12:31:50] [Thread-126/INFO]: UUID of player _bubthethird_ is af3a03f2-8d5e-31c2-b8e7-279e15033b60
+[12:31:50] [Server thread/INFO]: _bubthethird_[/127.0.0.1:64662] logged in with entity id 103581 at ([world]536.6576241118057, 11.0, -650.6334653112388)
+[12:31:57] [Async Chat Thread - #54/INFO]: <_bubthethird_> yooooooooooooo[m
+
+[12:32:11] [Async Chat Thread - #54/INFO]: <idk_what_to_put_> yoooooooooooooooooooooooooooooo[m
+
+[12:33:47] [Async Chat Thread - #55/INFO]: <idk_what_to_put_> nuh uh[m
+
+[12:33:55] [Async Chat Thread - #55/INFO]: <idk_what_to_put_> whered you go man[m
+
+[12:34:03] [Async Chat Thread - #55/INFO]: <_bubthethird_> yes[m
+
+[12:34:07] [Async Chat Thread - #55/INFO]: <idk_what_to_put_> alr[m
+
+[12:35:22] [Server thread/INFO]: idk_what_to_put_ was blown up by Creeper
+[12:35:33] [Server thread/INFO]: idk_what_to_put_ issued server command: /backk
+[12:35:37] [Server thread/INFO]: idk_what_to_put_ issued server command: /back
+[12:35:44] [Async Chat Thread - #56/INFO]: <_bubthethird_> where is the spawner[m
+
+[12:36:01] [Async Chat Thread - #56/INFO]: <idk_what_to_put_> nuh uh[m
+
+[12:36:48] [Async Chat Thread - #56/INFO]: <idk_what_to_put_> tf are you doing[m
+
+[12:37:28] [Async Chat Thread - #56/INFO]: <_bubthethird_> show me the spawner[m
+
+[12:37:50] [Async Chat Thread - #56/INFO]: <idk_what_to_put_> gimme a sec[m
+
+[12:38:09] [Async Chat Thread - #56/INFO]: <_bubthethird_> i don't htink this is optimal...[m
+
+[12:38:23] [Async Chat Thread - #56/INFO]: <idk_what_to_put_> whacha talking about[m
+
+[12:38:57] [Async Chat Thread - #56/INFO]: <_bubthethird_> wtf[m
+
+[12:40:37] [Async Chat Thread - #57/INFO]: <idk_what_to_put_> here we arw[m
+
+[12:42:31] [Server thread/INFO]: idk_what_to_put_ was slain by _bubthethird_ using [Revenge 2.0]
+[12:42:34] [Async Chat Thread - #58/INFO]: <_bubthethird_> yo[m
+
+[12:42:42] [Async Chat Thread - #58/INFO]: <idk_what_to_put_> why[m
+
+[12:42:48] [Server thread/INFO]: idk_what_to_put_ issued server command: /back
+[12:43:23] [Async Chat Thread - #58/INFO]: <_bubthethird_> was that it[m
+
+[12:43:29] [Async Chat Thread - #58/INFO]: <idk_what_to_put_> kill me[m
+
+[12:43:44] [Async Chat Thread - #58/INFO]: <idk_what_to_put_> kill me[m
+
+[12:43:45] [Thread-127/INFO]: UUID of player Davis is 7117e3e5-e9ca-39b3-a9de-d41c2ce64f69
+[12:43:45] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@59f5cf20[id=7117e3e5-e9ca-39b3-a9de-d41c2ce64f69,name=Davis,properties={textures=[com.mojang.authlib.properties.Property@2f5977f0], isEaglerPlayer=[com.mojang.authlib.properties.Property@3797cca6]},legacy=false] (/127.0.0.1:64690): You are not whitelisted on this server!
+[12:43:45] [Server thread/INFO]: com.mojang.authlib.GameProfile@59f5cf20[id=7117e3e5-e9ca-39b3-a9de-d41c2ce64f69,name=Davis,properties={textures=[com.mojang.authlib.properties.Property@2f5977f0], isEaglerPlayer=[com.mojang.authlib.properties.Property@3797cca6]},legacy=false] (/127.0.0.1:64690) lost connection: You are not whitelisted on this server!
+[12:43:47] [Async Chat Thread - #58/INFO]: <_bubthethird_> why[m
+
+[12:43:50] [Async Chat Thread - #58/INFO]: <idk_what_to_put_> bc[m
+
+[12:43:57] [Async Chat Thread - #58/INFO]: <idk_what_to_put_> also[m
+
+[12:44:04] [Async Chat Thread - #58/INFO]: <idk_what_to_put_> davis cant get on the server[m
+
+[12:44:16] [Async Chat Thread - #58/INFO]: <idk_what_to_put_> dont kill me anymore[m
+
+[12:44:35] [Thread-128/INFO]: UUID of player Davis is 7117e3e5-e9ca-39b3-a9de-d41c2ce64f69
+[12:44:35] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@62458ea5[id=7117e3e5-e9ca-39b3-a9de-d41c2ce64f69,name=Davis,properties={textures=[com.mojang.authlib.properties.Property@42ec282b], isEaglerPlayer=[com.mojang.authlib.properties.Property@7ce30e79]},legacy=false] (/127.0.0.1:64693): You are not whitelisted on this server!
+[12:44:35] [Server thread/INFO]: com.mojang.authlib.GameProfile@62458ea5[id=7117e3e5-e9ca-39b3-a9de-d41c2ce64f69,name=Davis,properties={textures=[com.mojang.authlib.properties.Property@42ec282b], isEaglerPlayer=[com.mojang.authlib.properties.Property@7ce30e79]},legacy=false] (/127.0.0.1:64693) lost connection: You are not whitelisted on this server!
+[12:44:38] [Async Chat Thread - #58/INFO]: <idk_what_to_put_> bud only has sharpness two on his sword[m
+
+[12:44:42] [Async Chat Thread - #58/INFO]: <idk_what_to_put_> what a lose[m
+
+[12:45:06] [Async Chat Thread - #58/INFO]: <_bubthethird_> man shut tf up[m
+
+[12:45:24] [Async Chat Thread - #58/INFO]: <idk_what_to_put_> nuh hu[m
+
+[12:45:32] [Async Chat Thread - #58/INFO]: <idk_what_to_put_> just get better[m
+
+[12:49:35] [Thread-129/INFO]: UUID of player Davis is 7117e3e5-e9ca-39b3-a9de-d41c2ce64f69
+[12:49:35] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@13e61575[id=7117e3e5-e9ca-39b3-a9de-d41c2ce64f69,name=Davis,properties={textures=[com.mojang.authlib.properties.Property@134e31d6], isEaglerPlayer=[com.mojang.authlib.properties.Property@3f5d3fad]},legacy=false] (/127.0.0.1:64704): You are not whitelisted on this server!
+[12:49:35] [Server thread/INFO]: com.mojang.authlib.GameProfile@13e61575[id=7117e3e5-e9ca-39b3-a9de-d41c2ce64f69,name=Davis,properties={textures=[com.mojang.authlib.properties.Property@134e31d6], isEaglerPlayer=[com.mojang.authlib.properties.Property@3f5d3fad]},legacy=false] (/127.0.0.1:64704) lost connection: You are not whitelisted on this server!
+[12:49:42] [Thread-130/INFO]: UUID of player Studioblop_ is 5fffbb64-d79f-3776-a0a1-e793891e48bf
+[12:49:42] [Server thread/INFO]: Studioblop_[/127.0.0.1:64707] logged in with entity id 106973 at ([world]492.3162543306031, 3.0, -708.3000000119209)
+[12:49:48] [Async Chat Thread - #59/INFO]: <idk_what_to_put_> yoooooooooooooo[m
+
+[12:49:54] [Async Chat Thread - #59/INFO]: <Studioblop_> yooooo[m
+
+[12:49:55] [Async Chat Thread - #59/INFO]: <idk_what_to_put_> tttttt[m
+
+[12:52:27] [Async Chat Thread - #60/INFO]: <idk_what_to_put_> how to subtitle?[m
+
+[12:52:35] [Async Chat Thread - #60/INFO]: <_bubthethird_> i don't think you can[m
+
+[12:52:44] [Async Chat Thread - #60/INFO]: <idk_what_to_put_> nuh hu[m
+
+[12:52:56] [Async Chat Thread - #60/INFO]: <idk_what_to_put_> leyang whitelist dave into the game[m
+
+[12:53:07] [Async Chat Thread - #60/INFO]: <idk_what_to_put_> right now he says[m
+
+[12:53:21] [Async Chat Thread - #60/INFO]: <Studioblop_> gotta go[m
+
+[12:53:25] [Async Chat Thread - #60/INFO]: <_bubthethird_> nuh uh[m
+
+[12:53:27] [Async Chat Thread - #60/INFO]: <Studioblop_> sociology[m
+
+[12:53:34] [Async Chat Thread - #60/INFO]: <_bubthethird_> nuh uh[m
+
+[12:53:43] [Async Chat Thread - #60/INFO]: <Studioblop_> mbmbmmbmbmb[m
+
+[12:53:46] [Async Chat Thread - #60/INFO]: <Studioblop_> mfmfmfmf[m
+
+[12:53:49] [Server thread/INFO]: Studioblop_ lost connection: Disconnected
+[12:53:49] [Server thread/INFO]: Studioblop_ left the game.
+[12:55:47] [Thread-131/INFO]: UUID of player Davis is 7117e3e5-e9ca-39b3-a9de-d41c2ce64f69
+[12:55:47] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@fba6874[id=7117e3e5-e9ca-39b3-a9de-d41c2ce64f69,name=Davis,properties={textures=[com.mojang.authlib.properties.Property@661271d1], isEaglerPlayer=[com.mojang.authlib.properties.Property@2106c14]},legacy=false] (/127.0.0.1:64731): You are not whitelisted on this server!
+[12:55:47] [Server thread/INFO]: com.mojang.authlib.GameProfile@fba6874[id=7117e3e5-e9ca-39b3-a9de-d41c2ce64f69,name=Davis,properties={textures=[com.mojang.authlib.properties.Property@661271d1], isEaglerPlayer=[com.mojang.authlib.properties.Property@2106c14]},legacy=false] (/127.0.0.1:64731) lost connection: You are not whitelisted on this server!
+[12:55:57] [Server thread/INFO]: _bubthethird_ was slain by Zombie
+[12:55:59] [Thread-132/INFO]: UUID of player Davis is 7117e3e5-e9ca-39b3-a9de-d41c2ce64f69
+[12:55:59] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4adb3a78[id=7117e3e5-e9ca-39b3-a9de-d41c2ce64f69,name=Davis,properties={textures=[com.mojang.authlib.properties.Property@793ea129], isEaglerPlayer=[com.mojang.authlib.properties.Property@5ab07355]},legacy=false] (/127.0.0.1:64738): You are not whitelisted on this server!
+[12:55:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@4adb3a78[id=7117e3e5-e9ca-39b3-a9de-d41c2ce64f69,name=Davis,properties={textures=[com.mojang.authlib.properties.Property@793ea129], isEaglerPlayer=[com.mojang.authlib.properties.Property@5ab07355]},legacy=false] (/127.0.0.1:64738) lost connection: You are not whitelisted on this server!
+[12:56:03] [Server thread/INFO]: _bubthethird_ issued server command: /back
+[12:56:17] [Async Chat Thread - #61/INFO]: <idk_what_to_put_> why no davis whitelist[m
+
+[12:56:41] [Async Chat Thread - #61/INFO]: <_bubthethird_> i can't do it right now[m
+
+[12:56:49] [Async Chat Thread - #61/INFO]: <idk_what_to_put_> why[m
+
+[12:56:51] [Async Chat Thread - #61/INFO]: <_bubthethird_> Davis is the username[m
+
+[12:57:20] [Async Chat Thread - #61/INFO]: <idk_what_to_put_> oh so idk why it isnt working[m
+
+[13:01:18] [Server thread/INFO]: _bubthethird_ issued server command: /back
+[13:03:47] [Thread-134/INFO]: UUID of player Studioblop_ is 5fffbb64-d79f-3776-a0a1-e793891e48bf
+[13:03:47] [Server thread/INFO]: Studioblop_[/127.0.0.1:64776] logged in with entity id 110755 at ([world]492.30000001192093, 3.0, -708.5883521444244)
+[13:03:50] [Async Chat Thread - #62/INFO]: <_bubthethird_> yooooooooo[m
+
+[13:03:54] [Async Chat Thread - #62/INFO]: <_bubthethird_> STUDIOBLOP[m
+
+[13:04:01] [Async Chat Thread - #62/INFO]: <Studioblop_> yoooooooooo[m
+
+[13:09:00] [Server thread/INFO]: idk_what_to_put_ lost connection: Disconnected
+[13:09:00] [Server thread/INFO]: idk_what_to_put_ left the game.
+[13:09:13] [Async Chat Thread - #63/INFO]: <Studioblop_> BUB BUB BUB[m
+
+[13:09:15] [Async Chat Thread - #63/INFO]: <_bubthethird_> what[m
+
+[13:09:18] [Async Chat Thread - #63/INFO]: <Studioblop_> hi[m
+
+[13:09:57] [Server thread/INFO]: _bubthethird_ issued server command: /whitelist list
+[13:11:22] [Async Chat Thread - #64/INFO]: <_bubthethird_> come to my base[m
+
+[13:11:28] [Async Chat Thread - #64/INFO]: <Studioblop_> nuh uh[m
+
+[13:11:33] [Async Chat Thread - #64/INFO]: <_bubthethird_> do you know where it is[m
+
+[13:11:40] [Async Chat Thread - #64/INFO]: <Studioblop_> yeh[m
+
+[13:11:53] [Async Chat Thread - #64/INFO]: <Studioblop_> im almost lvl 30[m
+
+[13:12:20] [Async Chat Thread - #64/INFO]: <Studioblop_> im using "o" to attack sence my mouse is loud[m
+
+[13:16:55] [Async Chat Thread - #65/INFO]: <Studioblop_> im tryin g to get infinity[m
+
+[13:17:04] [Async Chat Thread - #65/INFO]: <_bubthethird_> on a bow?[m
+
+[13:17:11] [Async Chat Thread - #65/INFO]: <_bubthethird_> oh wait on the sword ofc[m
+
+[13:17:21] [Async Chat Thread - #65/INFO]: <Studioblop_> no on a cooked chicken[m
+
+[13:17:25] [Async Chat Thread - #65/INFO]: <Studioblop_> food for life[m
+
+[13:17:27] [Async Chat Thread - #65/INFO]: <_bubthethird_> oh yes[m
+
+[13:17:36] [Async Chat Thread - #65/INFO]: <_bubthethird_> i also have a chicken farm buddy[m
+
+[13:17:45] [Async Chat Thread - #65/INFO]: <Studioblop_> mines bette[m
+
+[13:17:49] [Async Chat Thread - #65/INFO]: <Studioblop_> r[m
+
+[13:17:50] [Async Chat Thread - #65/INFO]: <_bubthethird_> nuh uh[m
+
+[13:17:55] [Async Chat Thread - #65/INFO]: <Studioblop_> yuh uh[m
+
+[13:17:56] [Async Chat Thread - #65/INFO]: <_bubthethird_> mines louder[m
+
+[13:18:06] [Async Chat Thread - #65/INFO]: <Studioblop_> mines in a building[m
+
+[13:18:14] [Async Chat Thread - #65/INFO]: <Studioblop_> bell[m
+
+[13:18:14] [Async Chat Thread - #65/INFO]: <_bubthethird_> my dispenser never stops firing eggs[m
+
+[13:18:29] [Server thread/INFO]: Studioblop_ lost connection: Disconnected
+[13:18:29] [Server thread/INFO]: Studioblop_ left the game.
+[13:19:06] [Server thread/INFO]: _bubthethird_ lost connection: Disconnected
+[13:19:06] [Server thread/INFO]: _bubthethird_ left the game.
+[13:59:59] [Thread-137/INFO]: UUID of player _bubthethird_ is af3a03f2-8d5e-31c2-b8e7-279e15033b60
+[13:59:59] [Server thread/INFO]: _bubthethird_[/127.0.0.1:64894] logged in with entity id 114341 at ([world]1127.454767117729, 83.0, -1252.3679858315434)
+[14:00:06] [Server thread/INFO]: _bubthethird_ issued server command: /l bubthethird
+[14:05:13] [Server thread/INFO]: _bubthethird_ lost connection: Disconnected
+[14:05:13] [Server thread/INFO]: _bubthethird_ left the game.
+[14:33:53] [Thread-139/INFO]: UUID of player _bubthethird_ is af3a03f2-8d5e-31c2-b8e7-279e15033b60
+[14:33:54] [Server thread/INFO]: _bubthethird_[/127.0.0.1:64980] logged in with entity id 115343 at ([world]1118.156388258611, 84.0, -1225.7286050832254)
+[14:34:01] [Thread-140/INFO]: UUID of player idk_what_to_put_ is 9806e5ec-15ef-3095-b1d3-fdeaf0cdc2aa
+[14:34:01] [Server thread/INFO]: idk_what_to_put_[/127.0.0.1:64983] logged in with entity id 115595 at ([world]495.51249998807907, 12.0, -277.30000001192093)
+[14:34:03] [Server thread/INFO]: _bubthethird_ lost connection: Disconnected
+[14:34:03] [Server thread/INFO]: _bubthethird_ left the game.
+[14:34:55] [Thread-141/INFO]: UUID of player _bubthethird_ is af3a03f2-8d5e-31c2-b8e7-279e15033b60
+[14:34:55] [Server thread/INFO]: _bubthethird_[/127.0.0.1:64990] logged in with entity id 115820 at ([world]1118.156388258611, 84.0, -1225.7286050832254)
+[14:34:56] [Thread-142/INFO]: UUID of player yes is ea922ad6-ec0a-3f6a-b7ae-0a1b23a7304a
+[14:34:56] [Server thread/INFO]: yes[/127.0.0.1:64993] logged in with entity id 116086 at ([world]481.17681438530184, 12.0, -278.62004343088046)
+[14:35:00] [Async Chat Thread - #66/INFO]: <idk_what_to_put_> yooooooo[m
+
+[14:35:10] [Async Chat Thread - #66/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:35:26] [Server thread/INFO]: _bubthethird_ lost connection: Login timed out!
+[14:35:26] [Server thread/INFO]: _bubthethird_ left the game.
+[14:35:26] [Server thread/WARN]: handleDisconnection() called twice
+[14:35:48] [Thread-143/INFO]: UUID of player Studioblop_ is 5fffbb64-d79f-3776-a0a1-e793891e48bf
+[14:35:48] [Server thread/INFO]: Studioblop_[/127.0.0.1:64999] logged in with entity id 116231 at ([world]492.30000001192093, 3.0, -708.511573315793)
+[14:35:57] [Async Chat Thread - #66/INFO]: <idk_what_to_put_> yooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:36:02] [Async Chat Thread - #66/INFO]: <Studioblop_> nuh uh[m
+
+[14:36:11] [Async Chat Thread - #66/INFO]: <Studioblop_> yarr[m
+
+[14:36:12] [Async Chat Thread - #66/INFO]: <idk_what_to_put_> damn mbmbmbmbmbmbmbmbmb[m
+
+[14:36:20] [Async Chat Thread - #66/INFO]: <Studioblop_> mfmfmfmfmfmf[m
+
+[14:36:33] [Async Chat Thread - #66/INFO]: <Studioblop_> (My Fault)[m
+
+[14:38:05] [Async Chat Thread - #67/INFO]: <Studioblop_> yooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:38:07] [Async Chat Thread - #67/INFO]: <Studioblop_> yo[m
+
+[14:38:09] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> no[m
+
+[14:38:10] [Async Chat Thread - #67/INFO]: <Studioblop_> yooo[m
+
+[14:38:12] [Async Chat Thread - #67/INFO]: <Studioblop_> yoooooo[m
+
+[14:38:13] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> mo[m
+
+[14:38:17] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> moooooo[m
+
+[14:38:18] [Async Chat Thread - #67/INFO]: <Studioblop_> i hate myself[m
+
+[14:38:34] [Async Chat Thread - #67/INFO]: <Studioblop_> marshall is the dumder[m
+
+[14:38:35] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> im gonna give ryan 10 bux[m
+
+[14:38:58] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> im a poopyhead by experiance[m
+
+[14:38:59] [Async Chat Thread - #67/INFO]: <Studioblop_> immma give jesse 43 sence[m
+
+[14:39:10] [Async Chat Thread - #67/INFO]: <Studioblop_> haahhahahahahahahahha[m
+
+[14:39:25] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> uh oh i love creepers[m
+
+[14:39:26] [Server thread/INFO]: yes was blown up by Creeper
+[14:39:34] [Async Chat Thread - #67/INFO]: <Studioblop_> oh no a creeper i hate creepy creepers[m
+
+[14:39:35] [Server thread/INFO]: yes issued server command: /bsck
+[14:39:38] [Server thread/INFO]: yes issued server command: /back
+[14:39:43] [Async Chat Thread - #67/INFO]: <Studioblop_> -Marshall[m
+
+[14:39:55] [Async Chat Thread - #67/INFO]: <Studioblop_> i hat furnaces[m
+
+[14:40:01] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> with an e[m
+
+[14:40:03] [Async Chat Thread - #67/INFO]: <Studioblop_> *hate[m
+
+[14:40:15] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> gravel[m
+
+[14:40:19] [Async Chat Thread - #67/INFO]: <Studioblop_> i got a f-\[m
+
+[14:40:19] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> without the l[m
+
+[14:40:27] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> fuc[m
+
+[14:40:34] [Async Chat Thread - #67/INFO]: <Studioblop_> I got a 0% on a test[m
+
+[14:40:34] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> fuk[m
+
+[14:40:40] [Async Chat Thread - #67/INFO]: <Studioblop_> shit[m
+
+[14:40:48] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> assjole[m
+
+[14:41:23] [Async Chat Thread - #67/INFO]: <Studioblop_> Kacke[m
+
+[14:41:31] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> oh i caca[m
+
+[14:41:59] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> i want to give jesse all of my food[m
+
+[14:42:10] [Async Chat Thread - #67/INFO]: <Studioblop_> sorry i cant im out[m
+
+[14:42:24] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> sacrafice[m
+
+[14:42:33] [Async Chat Thread - #67/INFO]: <Studioblop_> leyangs dog[m
+
+[14:42:40] [Thread-144/INFO]: UUID of player _bubthethird_ is af3a03f2-8d5e-31c2-b8e7-279e15033b60
+[14:42:40] [Server thread/INFO]: _bubthethird_[/127.0.0.1:65015] logged in with entity id 118240 at ([world]1118.156388258611, 84.0, -1225.7286050832254)
+[14:43:17] [Async Chat Thread - #67/INFO]: <Studioblop_> nuh uh nuh uh nuh uh nuh uh nuh uh nuh uh!!!!!!!!!!!!!!!!!!!!!!!!!!![m
+
+[14:43:29] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+
+[14:43:34] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+
+[14:43:40] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+
+[14:43:46] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+
+[14:43:52] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+
+[14:43:57] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+
+[14:44:02] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> taaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+
+[14:44:06] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+
+[14:44:11] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+
+[14:44:16] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+
+[14:44:19] [Async Chat Thread - #67/INFO]: <Studioblop_> nuh uh[m
+
+[14:44:21] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+
+[14:44:26] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+
+[14:44:52] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa im a wanted criminal in 49 states aaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+
+[14:45:00] [Async Chat Thread - #67/INFO]: <Studioblop_> yepo[m
+
+[14:45:05] [Async Chat Thread - #67/INFO]: <idk_what_to_put_> yes[m
+
+[14:45:15] [Async Chat Thread - #67/INFO]: <_bubthethird_> yes[m
+
+[14:46:48] [Async Chat Thread - #68/INFO]: <yes> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+
+[14:47:18] [Server thread/INFO]: yes tried to swim in lava
+[14:47:29] [Server thread/INFO]: yes issued server command: /back
+[14:47:36] [Server thread/INFO]: yes tried to swim in lava
+[14:48:02] [Server thread/INFO]: yes issued server command: /tpa idk_what_to_put_
+[14:48:20] [Server thread/INFO]: idk_what_to_put_ issued server command: /tpaccept
+[14:48:45] [Server thread/INFO]: yes tried to swim in lava to escape idk_what_to_put_
+[14:49:00] [Server thread/INFO]: yes issued server command: /tpa Studioblop_
+[14:49:12] [Server thread/INFO]: Studioblop_ issued server command: /tpaccept
+[14:49:17] [Async Chat Thread - #69/INFO]: <yes> okey[m
+
+[14:49:23] [Async Chat Thread - #69/INFO]: <idk_what_to_put_> dokely[m
+
+[14:51:11] [Async Chat Thread - #70/INFO]: <idk_what_to_put_> mfmfmfmf\[m
+
+[14:51:26] [Async Chat Thread - #70/INFO]: <Studioblop_> BUB HAS TOO ENDE PEARLS[m
+
+[14:51:32] [Async Chat Thread - #70/INFO]: <idk_what_to_put_> woah[m
+
+[14:51:37] [Async Chat Thread - #70/INFO]: <idk_what_to_put_> you bad man[m
+
+[14:51:37] [Async Chat Thread - #70/INFO]: <yes> woahicles[m
+
+[14:51:38] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:40] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:41] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:43] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:44] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:45] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:45] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:46] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:46] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:47] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:47] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:51:47] [Async Chat Thread - #70/INFO]: <idk_what_to_put_> put them in portal[m
+
+[14:51:47] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:48] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:48] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:49] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:49] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:49] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:50] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:50] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:51] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:51] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:52] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:52] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:52] [Async Chat Thread - #70/INFO]: <_bubthethird_> woah[m
+
+[14:51:52] [Server thread/INFO]: _bubthethird_ lost connection: disconnect.spam
+[14:51:52] [Server thread/INFO]: _bubthethird_ left the game.
+[14:51:52] [Server thread/WARN]: handleDisconnection() called twice
+[14:51:55] [Async Chat Thread - #70/INFO]: <Studioblop_> nuh uh[m
+
+[14:51:57] [Thread-145/INFO]: UUID of player _bubthethird_ is af3a03f2-8d5e-31c2-b8e7-279e15033b60
+[14:51:57] [Server thread/INFO]: _bubthethird_[/127.0.0.1:65034] logged in with entity id 121925 at ([world]1117.5780338780032, 86.0, -1252.7465319095738)
+[14:52:02] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:04] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:05] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:06] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:06] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:07] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:07] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:08] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:09] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:09] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop_ stop
+[14:52:10] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:10] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:11] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:11] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:12] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:12] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:13] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:13] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:14] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:14] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:15] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:15] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:15] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:16] [Async Chat Thread - #70/INFO]: <yes> yoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo[m
+
+[14:52:16] [Server thread/INFO]: yes lost connection: disconnect.spam
+[14:52:16] [Server thread/INFO]: yes left the game.
+[14:52:16] [Server thread/WARN]: handleDisconnection() called twice
+[14:52:23] [Thread-146/INFO]: UUID of player yes is ea922ad6-ec0a-3f6a-b7ae-0a1b23a7304a
+[14:52:23] [Server thread/INFO]: yes[/127.0.0.1:65037] logged in with entity id 122312 at ([world]518.9361746077982, 12.0, -708.280932248886)
+[14:52:33] [Async Chat Thread - #70/INFO]: <yes> yo[m
+
+[14:52:59] [Server thread/INFO]: Studioblop_ issued server command: /wsp _bubthethird_ whats in it for meh
+[14:53:11] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop_ its tell
+[14:53:56] [Server thread/INFO]: yes issued server command: /tpa _bubthethird_
+[14:54:11] [Server thread/INFO]: _bubthethird_ issued server command: /tpaccept
+[14:54:20] [Server thread/INFO]: yes was slain by _bubthethird_ using [Revenge 2.0]
+[14:54:27] [Server thread/INFO]: yes issued server command: /tpa _bubthethird_
+[14:54:35] [Async Chat Thread - #71/INFO]: <idk_what_to_put_> lol what a loser[m
+
+[14:54:40] [Server thread/INFO]: _bubthethird_ issued server command: /tpaccept
+[14:55:27] [Server thread/INFO]: yes was slain by _bubthethird_ using [Revenge 2.0]
+[14:55:47] [Server thread/INFO]: yes issued server command: /tpa idk_know_what_to_put_
+[14:55:48] [Server thread/INFO]: Studioblop_ issued server command: /tpa yes
+[14:56:14] [Server thread/INFO]: yes issued server command: /tpaccept
+[14:57:14] [Server thread/INFO]: yes issued server command: /tpa idk_what_to_put_
+[14:57:20] [Server thread/INFO]: idk_what_to_put_ issued server command: /tpaccept
+[14:57:24] [Server thread/INFO]: idk_what_to_put_ issued server command: /tpw
+[14:58:01] [Async Chat Thread - #72/INFO]: <Studioblop_> high[m
+
+[14:58:19] [Server thread/INFO]: yes issued server command: /me is NOT a GIverer
+[14:58:19] [Server thread/INFO]: * yes is NOT a GIverer
+[14:58:24] [Async Chat Thread - #72/INFO]: <idk_what_to_put_> mb[m
+
+[15:00:07] [Server thread/INFO]: idk_what_to_put_ was slain by yes
+[15:00:15] [Server thread/INFO]: idk_what_to_put_ issued server command: /back
+[15:03:20] [Async Chat Thread - #73/INFO]: <Studioblop_> DO YOU WANNA BUILD A SNOWMAN[m
+
+[15:03:29] [Async Chat Thread - #73/INFO]: <_bubthethird_> yaaaaaaaaaaaaaas[m
+
+[15:03:32] [Async Chat Thread - #73/INFO]: <Studioblop_> hola[m
+
+[15:03:36] [Async Chat Thread - #73/INFO]: <idk_what_to_put_> go you wanna come out and play?[m
+
+[15:03:37] [Async Chat Thread - #73/INFO]: <yes> hole[m
+
+[15:03:51] [Async Chat Thread - #73/INFO]: <Studioblop_> no you werdio[m
+
+[15:05:26] [Async Chat Thread - #74/INFO]: <_bubthethird_> yo ryan[m
+
+[15:05:31] [Async Chat Thread - #74/INFO]: <_bubthethird_> i can have a pumpkin[m
+
+[15:05:31] [Async Chat Thread - #74/INFO]: <idk_what_to_put_> nuh uh\w[m
+
+[15:05:53] [Async Chat Thread - #74/INFO]: <Studioblop_> do u wanna build a snow man[m
+
+[15:05:56] [Async Chat Thread - #74/INFO]: <idk_what_to_put_> no'[m
+
+[15:05:59] [Async Chat Thread - #74/INFO]: <_bubthethird_> yes[m
+
+[15:06:04] [Async Chat Thread - #74/INFO]: <Studioblop_> FROZEN[m
+
+[15:07:37] [Async Chat Thread - #75/INFO]: <Studioblop_> snowman man[m
+
+[15:07:39] [Async Chat Thread - #75/INFO]: <idk_what_to_put_> a word with the letter e in in[m
+
+[15:11:46] [Async Chat Thread - #76/INFO]: <_bubthethird_> 12:00 pm we goin in[m
+
+[15:11:54] [Async Chat Thread - #76/INFO]: <_bubthethird_> minecraft 12:00 pm[m
+
+[15:11:59] [Async Chat Thread - #76/INFO]: <yes> spleeef[m
+
+[15:12:03] [Async Chat Thread - #76/INFO]: <idk_what_to_put_> no[m
+
+[15:12:13] [Server thread/INFO]: _bubthethird_ issued server command: /back
+[15:12:16] [Async Chat Thread - #76/INFO]: <yes> *minceraft[m
+
+[15:12:31] [Async Chat Thread - #76/INFO]: <yes> 490 6 -277[m
+
+[15:14:14] [Server thread/INFO]: idk_what_to_put_ lost connection: Disconnected
+[15:14:14] [Server thread/INFO]: idk_what_to_put_ left the game.
+[15:14:34] [Thread-148/INFO]: UUID of player idk_what_to_put_ is 9806e5ec-15ef-3095-b1d3-fdeaf0cdc2aa
+[15:14:34] [Server thread/INFO]: idk_what_to_put_[/127.0.0.1:65098] logged in with entity id 134369 at ([world]368.19031686038915, 75.8500000178814, -203.38551897983402)
+[15:17:09] [Server thread/INFO]: idk_what_to_put_ lost connection: Disconnected
+[15:17:09] [Server thread/INFO]: idk_what_to_put_ left the game.
+[15:17:38] [Thread-149/INFO]: UUID of player idk_what_to_put_ is 9806e5ec-15ef-3095-b1d3-fdeaf0cdc2aa
+[15:17:38] [Server thread/INFO]: idk_what_to_put_[/127.0.0.1:65105] logged in with entity id 135124 at ([world]503.16102325373845, 12.0, -288.2310367705039)
+[15:18:09] [Server thread/INFO]: idk_what_to_put_ lost connection: Login timed out!
+[15:18:09] [Server thread/INFO]: idk_what_to_put_ left the game.
+[15:18:09] [Server thread/WARN]: handleDisconnection() called twice
+[15:18:13] [Thread-150/INFO]: UUID of player idk_what_to_put_ is 9806e5ec-15ef-3095-b1d3-fdeaf0cdc2aa
+[15:18:13] [Server thread/INFO]: idk_what_to_put_[/127.0.0.1:65109] logged in with entity id 135266 at ([world]503.16102325373845, 12.0, -288.2310367705039)
+[15:19:11] [Server thread/INFO]: idk_what_to_put_ lost connection: Disconnected
+[15:19:11] [Server thread/INFO]: idk_what_to_put_ left the game.
+[15:22:12] [Async Chat Thread - #77/INFO]: <Studioblop_> marmingtin[m
+
+[15:23:31] [Async Chat Thread - #78/INFO]: <Studioblop_> can i can a can of caned cans[m
+
+[15:23:45] [Server thread/INFO]: _bubthethird_ issued server command: /tpa Studioblop_
+[15:23:45] [Async Chat Thread - #78/INFO]: <Studioblop_> nuh uh[m
+
+[15:23:55] [Server thread/INFO]: Studioblop_ issued server command: /tpaccept
+[15:23:59] [Async Chat Thread - #78/INFO]: <yes> you can[m
+
+[15:24:19] [Server thread/WARN]: Studioblop_ moved wrongly!
+[15:24:49] [Async Chat Thread - #78/INFO]: <yes> aaaaaaaaaaaaaaaaaaaaaaa[m
+
+[15:29:25] [Async Chat Thread - #79/INFO]: <Studioblop_> 0010100011100010[m
+
+[15:30:05] [Async Chat Thread - #79/INFO]: <Studioblop_> bub...[m
+
+[15:31:17] [Async Chat Thread - #80/INFO]: <yes> 0000000000000000000000000000000000000000000000000000[m
+
+[15:31:32] [Async Chat Thread - #80/INFO]: <Studioblop_> 101001001000100001001001001001001001001002100200200200200210010294394u838437752368590657o39697697242[m
+
+[15:31:44] [Async Chat Thread - #80/INFO]: <yes> 1.87e+284974294794724911033[m
+
+[15:32:56] [Server thread/INFO]: _bubthethird_ issued server command: /weather set clear
+[15:32:59] [Server thread/INFO]: _bubthethird_ issued server command: /weather
+[15:33:11] [Async Chat Thread - #81/INFO]: <yes> \give Marshall some_money 0[m
+
+[15:34:01] [Server thread/INFO]: Studioblop_ issued server command: /op Studioblop_
+[15:34:34] [Async Chat Thread - #82/INFO]: <yes> \give yes furnace 5.9e+2124255454332234[m
+
+[15:35:54] [Server thread/INFO]: _bubthethird_ issued server command: /tpa Studioblop_
+[15:35:59] [Server thread/INFO]: Studioblop_ issued server command: /tpaccept
+[15:37:58] [Server thread/WARN]: _bubthethird_ moved wrongly!
+[15:39:08] [Server thread/INFO]: _bubthethird_ was shot by Studioblop_ using [Musket]
+[15:39:11] [Server thread/INFO]: _bubthethird_ issued server command: /back
+[15:39:42] [Server thread/INFO]: _bubthethird_ was shot by Studioblop_ using [Musket]
+[15:39:50] [Server thread/INFO]: _bubthethird_ issued server command: /back
+[15:40:36] [Server thread/INFO]: _bubthethird_ was shot by Studioblop_ using [Musket]
+[15:40:41] [Server thread/INFO]: _bubthethird_ issued server command: /back
+[15:40:47] [Server thread/INFO]: _bubthethird_ was shot by Studioblop_ using [Musket]
+[15:40:50] [Server thread/INFO]: _bubthethird_ issued server command: /back
+[15:41:01] [Server thread/INFO]: _bubthethird_ issued server command: /back
+[15:41:06] [Server thread/INFO]: yes issued server command: /me tried to swim in fanta
+[15:41:06] [Server thread/INFO]: * yes tried to swim in fanta
+[15:42:12] [Server thread/INFO]: _bubthethird_ was shot by Studioblop_ using [Musket]
+[15:42:15] [Server thread/INFO]: _bubthethird_ issued server command: /back
+[15:43:54] [Server thread/INFO]: _bubthethird_ was shot by Studioblop_ using [Musket]
+[15:44:00] [Server thread/INFO]: _bubthethird_ issued server command: /back
+[15:46:10] [Server thread/INFO]: _bubthethird_ hit the ground too hard
+[15:46:15] [Server thread/INFO]: _bubthethird_ issued server command: /back
+[15:46:31] [Server thread/INFO]: _bubthethird_ was shot by Studioblop_ using [Musket]
+[15:46:38] [Server thread/INFO]: _bubthethird_ issued server command: /back
+[15:50:26] [Async Chat Thread - #83/INFO]: <yes> e[m
+
+[15:50:33] [Async Chat Thread - #83/INFO]: <_bubthethird_> e[m
+
+[15:50:36] [Async Chat Thread - #83/INFO]: <yes> e[m
+
+[15:50:46] [Async Chat Thread - #83/INFO]: <Studioblop_> iii[m
+
+[15:51:03] [Async Chat Thread - #83/INFO]: <Studioblop_> hola si dora[m
+
+[15:51:17] [Async Chat Thread - #83/INFO]: <Studioblop_> holea sea door a[m
+
+[16:00:47] [Server thread/INFO]: yes lost connection: Disconnected
+[16:00:47] [Server thread/INFO]: yes left the game.
+[16:18:22] [Async Chat Thread - #84/INFO]: <_bubthethird_> 486 -706[m
+
+[16:18:22] [Async Chat Thread - #84/INFO]: <Studioblop_> NUH UH[m
+
+[16:21:58] [Async Chat Thread - #85/INFO]: <Studioblop_> NUH UH[m
+
+[16:22:04] [Server thread/INFO]: _bubthethird_ issued server command: /tell i gtg
+[16:22:04] [Server thread/INFO]: [_bubthethird_: That player cannot be found]
+[16:22:05] [Async Chat Thread - #85/INFO]: <Studioblop_> NUH UH[m
+
+[16:22:11] [Async Chat Thread - #85/INFO]: <Studioblop_> HUH NU[m
+
+[16:22:11] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop i gtg
+[16:22:11] [Server thread/INFO]: [_bubthethird_: That player cannot be found]
+[16:22:18] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop_ i gtg
+[16:22:30] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop_ i gtg
+[16:22:34] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop_ i gtg
+[16:22:36] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop_ i gtg
+[16:22:36] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop_ i gtg
+[16:22:37] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop_ i gtg
+[16:22:37] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop_ i gtg
+[16:22:37] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop_ i gtg
+[16:22:38] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop_ i gtg
+[16:22:38] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop_ i gtg
+[16:22:39] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop_ i gtg
+[16:22:39] [Server thread/INFO]: _bubthethird_ issued server command: /tell Studioblop_ i gtg
+[16:22:41] [Async Chat Thread - #85/INFO]: <Studioblop_> \TELL _BUBTHETHIRD_ NUH UH[m
+
+[16:22:47] [Server thread/INFO]: _bubthethird_ lost connection: Disconnected
+[16:22:47] [Server thread/INFO]: _bubthethird_ left the game.
+[16:31:23] [Server thread/INFO]: Studioblop_ lost connection: Disconnected
+[16:31:23] [Server thread/INFO]: Studioblop_ left the game.
+[16:33:02] [Thread-154/INFO]: UUID of player Huntingoliver_ is 7294e77a-e9b9-3304-bb8f-cf69353505bd
+[16:33:02] [Server thread/INFO]: Huntingoliver_[/127.0.0.1:65257] logged in with entity id 158035 at ([world]527.9068965858607, 64.0, -267.7875372057773)
+[16:36:01] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[16:36:04] [Server thread/INFO]: There are 1/20 players online:
+[16:36:04] [Server thread/INFO]: Huntingoliver_
+[16:36:19] [Thread-155/INFO]: UUID of player _bubthethird_ is af3a03f2-8d5e-31c2-b8e7-279e15033b60
+[16:36:19] [Server thread/INFO]: _bubthethird_[/127.0.0.1:65284] logged in with entity id 158352 at ([world]1009.5494575506059, 12.0, -1221.7344288658544)
+[16:37:08] [Server thread/INFO]: Huntingoliver_ lost connection: Disconnected
+[16:37:08] [Server thread/INFO]: Huntingoliver_ left the game.
+[16:37:08] [Server thread/INFO]: _bubthethird_ lost connection: Disconnected
+[16:37:08] [Server thread/INFO]: _bubthethird_ left the game.
+[16:37:30] [Thread-156/INFO]: UUID of player Huntingoliver_ is 7294e77a-e9b9-3304-bb8f-cf69353505bd
+[16:37:30] [Server thread/INFO]: Huntingoliver_[/127.0.0.1:65295] logged in with entity id 158608 at ([world]527.6197299255372, 64.0, -267.22654268638513)
+[16:38:27] [Thread-157/INFO]: UUID of player _bubthethird_ is af3a03f2-8d5e-31c2-b8e7-279e15033b60
+[16:38:27] [Server thread/INFO]: _bubthethird_[/127.0.0.1:65305] logged in with entity id 158729 at ([world]1009.3000000119209, 12.0, -1192.7548859177318)
+[16:39:12] [Server thread/INFO]: _bubthethird_ lost connection: Disconnected
+[16:39:12] [Server thread/INFO]: _bubthethird_ left the game.
+[17:06:41] [Server thread/INFO]: Huntingoliver_ lost connection: Disconnected
+[17:06:41] [Server thread/INFO]: Huntingoliver_ left the game.
+[17:32:32] [Thread-160/INFO]: UUID of player Studioblop_ is 5fffbb64-d79f-3776-a0a1-e793891e48bf
+[17:32:32] [Server thread/INFO]: Studioblop_[/127.0.0.1:65440] logged in with entity id 162649 at ([world]492.3000000119208, 3.0, -708.5152654755248)
+[17:36:04] [Server thread/INFO]: Studioblop_ lost connection: Disconnected
+[17:36:04] [Server thread/INFO]: Studioblop_ left the game.
+[17:42:36] [Thread-161/INFO]: UUID of player Studioblop_ is 5fffbb64-d79f-3776-a0a1-e793891e48bf
+[17:42:36] [Server thread/INFO]: Studioblop_[/127.0.0.1:65468] logged in with entity id 163171 at ([world]492.3163289960801, 3.0, -708.3000000119209)
+[18:30:58] [Thread-164/INFO]: UUID of player idk_what_to_put_ is 9806e5ec-15ef-3095-b1d3-fdeaf0cdc2aa
+[18:30:58] [Server thread/INFO]: idk_what_to_put_[/127.0.0.1:49176] logged in with entity id 167542 at ([world]552.6196691906766, 11.0, -311.460337721158)
+[18:31:08] [Async Chat Thread - #86/INFO]: <Studioblop_> yoooooooooooo[m
+
+[18:31:13] [Async Chat Thread - #86/INFO]: <idk_what_to_put_> yooooooo[m
+
+[18:33:57] [Async Chat Thread - #87/INFO]: <idk_what_to_put_> no get out[m
+
+[18:34:03] [Async Chat Thread - #87/INFO]: <Studioblop_> wait yo turn[m
+
+[18:34:28] [Async Chat Thread - #87/INFO]: <idk_what_to_put_> youve been using the mob spawner alot the past day[m
+
+[18:34:37] [Async Chat Thread - #87/INFO]: <idk_what_to_put_> i havent used it at all[m
+
+[18:34:51] [Async Chat Thread - #87/INFO]: <Studioblop_> yo these r my first times using it[m
+
+[18:35:02] [Async Chat Thread - #87/INFO]: <idk_what_to_put_> nuh uh[m
+
+[18:35:10] [Async Chat Thread - #87/INFO]: <Studioblop_> u guys were getting enchants[m
+
+[18:35:16] [Async Chat Thread - #87/INFO]: <Studioblop_> so now i have to catch up[m
+
+[18:35:21] [Async Chat Thread - #87/INFO]: <idk_what_to_put_> you better hurry up your session here[m
+
+[18:36:13] [Async Chat Thread - #87/INFO]: <Studioblop_> 1 more lvl[m
+
+[18:36:19] [Async Chat Thread - #87/INFO]: <Studioblop_> i need lvl 15[m
+
+[18:36:22] [Async Chat Thread - #87/INFO]: <idk_what_to_put_> alr[m
+
+[18:37:22] [Async Chat Thread - #87/INFO]: <Studioblop_> all yourrs[m
+
+[19:08:28] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> thwack[m
+
+[19:08:43] [Async Chat Thread - #88/INFO]: <Studioblop_> nuh uh[m
+
+[19:09:04] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> did leyang put the other eyes in?[m
+
+[19:09:10] [Async Chat Thread - #88/INFO]: <Studioblop_> no[m
+
+[19:09:38] [Async Chat Thread - #88/INFO]: <Studioblop_> you guys are holding them hostage[m
+
+[19:09:44] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> ong[m
+
+[19:10:09] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> if i get enough before tommorow im going[m
+
+[19:10:22] [Async Chat Thread - #88/INFO]: <Studioblop_> nuh uh[m
+
+[19:10:28] [Async Chat Thread - #88/INFO]: <Studioblop_> we all have to go[m
+
+[19:10:28] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> yeah huh[m
+
+[19:10:41] [Async Chat Thread - #88/INFO]: <Studioblop_> you better not[m
+
+[19:10:47] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> i will[m
+
+[19:11:04] [Async Chat Thread - #88/INFO]: <Studioblop_> were all supposed to fight it together[m
+
+[19:11:23] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> and maybe that will happen[m
+
+[19:11:40] [Async Chat Thread - #88/INFO]: <Studioblop_> youll piss everyone off if you do[m
+
+[19:11:51] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> probably[m
+
+[19:11:58] [Async Chat Thread - #88/INFO]: <Studioblop_> i suggest not[m
+
+[19:12:25] [Async Chat Thread - #88/INFO]: <Studioblop_> youll also piss me of[m
+
+[19:12:32] [Async Chat Thread - #88/INFO]: <Studioblop_> *off[m
+
+[19:12:40] [Async Chat Thread - #88/INFO]: <Studioblop_> cause i have to go[m
+
+[19:12:53] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> when[m
+
+[19:12:56] [Async Chat Thread - #88/INFO]: <Studioblop_> now[m
+
+[19:13:01] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> oh damn[m
+
+[19:13:14] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> imma do it[m
+
+[19:13:23] [Async Chat Thread - #88/INFO]: <Studioblop_> no[m
+
+[19:13:28] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> maybe[m
+
+[19:13:29] [Async Chat Thread - #88/INFO]: <Studioblop_> did you put yours in[m
+
+[19:13:33] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> no'[m
+
+[19:13:40] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> its just mine[m
+
+[19:14:11] [Async Chat Thread - #88/INFO]: <Studioblop_> ok dont becasue you would bacially ruin it for everyone[m
+
+[19:14:18] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> yeah[m
+
+[19:14:26] [Async Chat Thread - #88/INFO]: <Studioblop_> were supposed to do it tomorrw[m
+
+[19:14:37] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> after school?[m
+
+[19:14:42] [Async Chat Thread - #88/INFO]: <Studioblop_> yeah[m
+
+[19:15:30] [Async Chat Thread - #88/INFO]: <Studioblop_> bye[m
+
+[19:15:33] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> bye'[m
+
+[19:15:36] [Server thread/INFO]: Studioblop_ lost connection: Disconnected
+[19:15:36] [Server thread/INFO]: Studioblop_ left the game.
+[19:15:42] [Thread-166/INFO]: UUID of player Studioblop_ is 5fffbb64-d79f-3776-a0a1-e793891e48bf
+[19:15:42] [Server thread/INFO]: Studioblop_[/127.0.0.1:49279] logged in with entity id 175453 at ([world]500.50944529327495, 14.0, -281.5360237983994)
+[19:15:50] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> leave[m
+
+[19:15:51] [Async Chat Thread - #88/INFO]: <Studioblop_> btw[m
+
+[19:15:57] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> what[m
+
+[19:15:58] [Async Chat Thread - #88/INFO]: <Studioblop_> why...[m
+
+[19:16:14] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> what do you want to say[m
+
+[19:16:26] [Async Chat Thread - #88/INFO]: <Studioblop_> dont even put the eyes in becasue i will login and off checking[m
+
+[19:16:36] [Async Chat Thread - #88/INFO]: <idk_what_to_put_> nuh uh[m
+
+[19:16:49] [Async Chat Thread - #88/INFO]: <Studioblop_> dont be a[m
+
+[19:16:52] [Server thread/INFO]: Studioblop_ lost connection: Disconnected
+[19:16:52] [Server thread/INFO]: Studioblop_ left the game.
+[19:18:30] [Thread-167/INFO]: UUID of player Studioblop_ is 5fffbb64-d79f-3776-a0a1-e793891e48bf
+[19:18:31] [Server thread/INFO]: Studioblop_[/127.0.0.1:49287] logged in with entity id 175574 at ([world]500.50944529327495, 14.0, -281.5360237983994)
+[19:18:39] [Server thread/INFO]: Studioblop_ lost connection: Disconnected
+[19:18:39] [Server thread/INFO]: Studioblop_ left the game.
+[19:22:54] [Server thread/INFO]: idk_what_to_put_ has just earned the achievement [Cow Tipper]
+[19:42:40] [Thread-169/INFO]: UUID of player Studioblop_ is 5fffbb64-d79f-3776-a0a1-e793891e48bf
+[19:42:40] [Server thread/INFO]: Studioblop_[/127.0.0.1:49323] logged in with entity id 181045 at ([world]500.50944529327495, 14.0, -281.5360237983994)
+[19:43:43] [Async Chat Thread - #89/INFO]: <Studioblop_> you better not do anything[m
+
+[19:43:45] [Server thread/INFO]: Studioblop_ lost connection: Disconnected
+[19:43:45] [Server thread/INFO]: Studioblop_ left the game.
+[19:43:54] [Server thread/INFO]: idk_what_to_put_ lost connection: Disconnected
+[19:43:54] [Server thread/INFO]: idk_what_to_put_ left the game.
+[19:43:57] [Thread-170/INFO]: UUID of player idk_what_to_put_ is 9806e5ec-15ef-3095-b1d3-fdeaf0cdc2aa
+[19:43:57] [Server thread/INFO]: idk_what_to_put_[/127.0.0.1:49330] logged in with entity id 181163 at ([world]570.5693346139171, 14.0, -364.9734553823365)
+[19:44:27] [Server thread/INFO]: idk_what_to_put_ lost connection: Login timed out!
+[19:44:27] [Server thread/INFO]: idk_what_to_put_ left the game.
+[19:44:27] [Server thread/WARN]: handleDisconnection() called twice
+[19:48:32] [Thread-171/INFO]: UUID of player idk_what_to_put_ is 9806e5ec-15ef-3095-b1d3-fdeaf0cdc2aa
+[19:48:32] [Server thread/INFO]: idk_what_to_put_[/127.0.0.1:49338] logged in with entity id 181276 at ([world]570.5693346139171, 14.0, -364.9734553823365)
+[19:55:47] [Server thread/INFO]: idk_what_to_put_ lost connection: Disconnected
+[19:55:47] [Server thread/INFO]: idk_what_to_put_ left the game.
+[20:00:17] [Thread-173/INFO]: UUID of player Studioblop_ is 5fffbb64-d79f-3776-a0a1-e793891e48bf
+[20:00:17] [Server thread/INFO]: Studioblop_[/127.0.0.1:49367] logged in with entity id 181503 at ([world]500.4811879523374, 14.0, -281.34595393273105)
+[20:00:25] [Server thread/INFO]: Studioblop_ lost connection: Disconnected
+[20:00:25] [Server thread/INFO]: Studioblop_ left the game.
+[20:00:41] [Thread-174/INFO]: UUID of player Studioblop_ is 5fffbb64-d79f-3776-a0a1-e793891e48bf
+[20:00:41] [Server thread/INFO]: Studioblop_[/127.0.0.1:49373] logged in with entity id 181607 at ([world]500.4811879523374, 14.0, -281.34595393273105)
+[20:00:45] [Server thread/INFO]: Studioblop_ lost connection: Disconnected
+[20:00:45] [Server thread/INFO]: Studioblop_ left the game.
+[21:38:08] [Server thread/INFO]: There are 0/20 players online:
+[21:38:08] [Server thread/INFO]: 
+[21:38:11] [Server thread/INFO]: Stopping the server
+[21:38:11] [Server thread/INFO]: Stopping server
+[21:38:11] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[21:38:11] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[21:38:11] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[21:38:11] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[21:38:11] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[21:38:11] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[21:38:11] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[21:38:11] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[21:38:11] [Server thread/INFO]: Saving players
+[21:38:11] [Server thread/INFO]: Saving worlds
+[21:38:11] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[21:38:11] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[21:38:11] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
